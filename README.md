@@ -51,3 +51,28 @@ A navegação do aplicativo é composta por:
 
 ## Estrutura de Pastas (resumo)
 
+app/
+├── _layout.js # Layout principal com Drawer
+├── modal.js # Tela modal
+├── tabs/
+│ ├── _layout.js # Layout das Tabs
+│ ├── tab1.js # Primeira aba (ex: Home ou lista)
+│ └── tab2.js # Segunda aba (ex: Buscar)
+components/
+├── CarouselNetflix.js # Componente carrossel estilo Netflix
+├── ShowCard.js # Cartão de exibição dos shows
+...
+
+
+---
+
+## Como Rodar o Projeto
+
+1. Clone o repositório
+2. Rode `npm install` ou `yarn` para instalar dependências
+3. Inicie o projeto com `expo start`
+4. Abra no seu dispositivo ou emulador via QR code ou simulador
+
+---
+
+
